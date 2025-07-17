@@ -1,0 +1,46 @@
+# ncbiopenapi::V2reportsBioSampleDataReport
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**accession** | **character** |  | [optional] 
+**last_updated** | **character** |  | [optional] 
+**publication_date** | **character** |  | [optional] 
+**submission_date** | **character** |  | [optional] 
+**sample_ids** | [**array[V2reportsBioSampleId]**](v2reportsBioSampleId.md) |  | [optional] 
+**description** | [**V2reportsBioSampleDescription**](v2reportsBioSampleDescription.md) |  | [optional] 
+**owner** | [**V2reportsBioSampleOwner**](v2reportsBioSampleOwner.md) |  | [optional] 
+**models** | **array[character]** |  | [optional] 
+**bioprojects** | [**array[V2reportsBioProject]**](v2reportsBioProject.md) |  | [optional] 
+**package** | **character** |  | [optional] 
+**attributes** | [**array[V2reportsBioSampleAttribute]**](v2reportsBioSampleAttribute.md) |  | [optional] 
+**status** | [**V2reportsBioSampleStatus**](v2reportsBioSampleStatus.md) |  | [optional] 
+**age** | **character** |  | [optional] 
+**biomaterial_provider** | **character** |  | [optional] 
+**breed** | **character** |  | [optional] 
+**collected_by** | **character** |  | [optional] 
+**collection_date** | **character** |  | [optional] 
+**cultivar** | **character** |  | [optional] 
+**dev_stage** | **character** |  | [optional] 
+**ecotype** | **character** |  | [optional] 
+**geo_loc_name** | **character** |  | [optional] 
+**host** | **character** |  | [optional] 
+**host_disease** | **character** |  | [optional] 
+**identified_by** | **character** |  | [optional] 
+**ifsac_category** | **character** |  | [optional] 
+**isolate** | **character** |  | [optional] 
+**isolate_name_alias** | **character** |  | [optional] 
+**isolation_source** | **character** |  | [optional] 
+**lat_lon** | **character** |  | [optional] 
+**project_name** | **character** |  | [optional] 
+**sample_name** | **character** |  | [optional] 
+**serovar** | **character** |  | [optional] 
+**sex** | **character** |  | [optional] 
+**source_type** | **character** |  | [optional] 
+**strain** | **character** |  | [optional] 
+**sub_species** | **character** |  | [optional] 
+**tissue** | **character** |  | [optional] 
+**serotype** | **character** |  | [optional] 
+
+

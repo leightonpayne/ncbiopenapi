@@ -1,0 +1,15 @@
+Package: ncbiopenapi
+Title: R Package Client for NCBI Datasets API
+Version: 1.0.0
+Author: person("OpenAPI Generator community", email = "team@openapitools.org", role = c("aut", "cre"))
+Maintainer: OpenAPI Generator community <team@openapitools.org>
+Description: ### NCBI Datasets is a resource that lets you easily gather data from NCBI. The Datasets version 2 API is still in alpha, and we're updating it often to add new functionality, iron out bugs and enhance usability. For some larger downloads, you may want to download a [dehydrated zip archive](https://www.ncbi.nlm.nih.gov/datasets/docs/v2/how-tos/genomes/large-download/), and retrieve the individual data files at a later time. 
+URL: https://github.com/leightonpayne/ncbiopenapi
+BugReports: https://github.com/leightonpayne/ncbiopenapi/issues
+Depends: R (>= 3.3)
+Encoding: UTF-8
+License: Unlicense
+LazyData: true
+Suggests: testthat
+Imports: jsonlite, httr, R6, base64enc, stringr
+RoxygenNote: 7.2.1
