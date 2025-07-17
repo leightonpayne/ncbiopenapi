@@ -12,6 +12,8 @@ This R package was automatically generated using [OpenAPI Generator](https://ope
 - Expect potential bugs, missing features, or breaking changes
 - Consider this package experimental and use at your own risk
 
+For a more stable experience, use the [official NCBI Datasets tools](https://www.ncbi.nlm.nih.gov/datasets).
+
 ## About NCBI Datasets API
 
 NCBI Datasets is a resource that lets you easily gather data from NCBI. The Datasets version 2 API is still in alpha, and NCBI is updating it frequently to add new functionality, fix bugs, and enhance usability.
@@ -68,15 +70,6 @@ For detailed endpoint documentation, see the `docs/` directory in this package. 
 The API supports two authentication methods:
 - **Query parameter**: `api_key` in URL
 - **HTTP header**: `api-key` header
-
-## Important Notes
-
-- ⚠️ **Alpha API**: The NCBI Datasets v2 API is in alpha and subject to frequent changes
-- ⚠️ **Auto-generated**: This package is machine-generated and may contain bugs
-- ⚠️ **No warranty**: Use at your own risk in production environments
-- ⚠️ **Limited testing**: Minimal validation has been performed on the generated code
-
-For the most up-to-date API information, please refer to the [official NCBI Datasets documentation](https://www.ncbi.nlm.nih.gov/datasets/docs/).
 
 ---
 
